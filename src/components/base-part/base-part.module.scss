@@ -1,0 +1,32 @@
+.basePart {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    align-items: center;
+    gap: 16px;
+    padding: 32px;
+    width: 90%;
+}
+
+.baseHeader {
+    padding-bottom: 8px;
+    border-bottom: 1px solid black;
+}
+
+.baseTitle {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.baseSubtitle {
+    font-weight: 500;
+}
+
+.parts {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 90%;
+}
